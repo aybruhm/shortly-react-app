@@ -1,0 +1,182 @@
+/* 
+
+Author: Israel Abraham
+GitHub: https://github.com/israelvictory
+LinkedIn: https://linkedin.com/in/israel-abraham
+Twitter: https://twitter.com/israelvic__
+Facebook: https://facebook.com/israel.abraham.vic
+
+*/
+
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/***** 
+Main Section
+*****/
+
+#main {
+    background: url('./assets/img/default.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 750px;
+    position: relative;
+    color: #fff;
+}
+
+.logo {
+    margin-bottom: -12px;
+}
+
+.ccwl {
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+form {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 8px 20px !important;
+    font-size: 16px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+
+/***** 
+Main Section
+*****/
+
+
+/***** 
+404 Section
+*****/
+
+#page-not-found {
+    background: url('/assets/images/default.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 950px;
+    position: relative;
+    color: #fff;
+}
+
+.rd {
+    color: #ff0000;
+}
+
+.list-text {
+    color: white;
+    font-size: 17.9px
+}
+
+.a:hover,
+a:active {
+    color: #ff0000;
+}
+
+
+/***** 
+404 Section
+*****/
+
+
+/***** 
+Stats Section
+*****/
+
+#stats {
+    background: url('/assets/images/default.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 950px;
+    position: relative;
+    color: #000;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.tr-text {
+    font-size: 20px;
+}
+
+.tr-text-1 {
+    font-size: 15.5px;
+}
+
+
+/***** 
+Stats Section
+*****/
+
+#add {
+    background: url('/assets/images/default.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 662px;
+    position: relative;
+    color: #000;
+}
+
+.text {
+    padding-bottom: 50px;
+}
+
+.tr-text-2 {
+    font-size: 18px;
+}
+
+.link {
+    margin-bottom: -5px;
+}
+
+
+/***** 
+Add Section
+*****/
+
+
+/***** 
+Add Section
+*****/
+
+
+/* Media Queries */
+
+@media(max-width: 769px) {
+    #page-not-found {
+        background: url('/assets/images/default.jpg') no-repeat fixed;
+        background-size: cover;
+        min-height: 1000px;
+        position: relative;
+        padding-top: 20px;
+    }
+    #stats {
+        background: url('/assets/images/default.jpg') no-repeat fixed;
+        background-size: cover;
+        min-height: 1000px;
+        position: relative;
+        color: #000;
+    }
+}
+/*
+@media(min-width:  560px) {
+ .btn {
+    margin-top: 10px;
+    padding: 8px 20px !important;
+    font-size: 16px;
+    transition: 0.5s;
+    display: inline-block;
+}
+   
+}*/

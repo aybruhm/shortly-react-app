@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="url shortener, django url shortener, shortly">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Home - Shortly</title>
+</head>
+
+<body>
+    <section id="main" style="background: url('./assets/img/default.jpg')">
+        <div class="container">
+            <div class="main">
+                <h1 class="logo cursive text-center">
+                    Shortly
+                </h1>
+                <h3 class="col alight-content-center text-center ccwl">
+                    Create Click Worthy Links
+                </h3>
+
+                <div class="container">
+                    <div class="row mt-2">
+                        <div class="col">
+                            <form class="form-inline" method="POST" action="add.htm">
+                                <input type="link" name="long_url" class="form-control mb-2 m3-sm-2 transparent" placeholder="Paste Url Here..">
+                                <button type="submit" name="button" class="btn btn-danger btn-fill button">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
